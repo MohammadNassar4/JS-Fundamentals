@@ -7,8 +7,6 @@ argv.forEach((arg, index) => {
 if (length <= 2) {
     console.log('No argument');
 } else {
-    for (let i = 2; i < length; i++) {
-        console.log(argv[i]);
-    }
+    console.log(argv[2]);
 }
 
